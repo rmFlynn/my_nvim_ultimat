@@ -1,3 +1,9 @@
 [submodule "my_plugins/vimcmdline"]
 	path = my_plugins/vimcmdline
 	url = https://github.com/jalvesaq/vimcmdline.git
+[submodule "my_plugins/deoplete"]
+	path = my_plugins/deoplete
+	url = https://github.com/Shougo/deoplete.nvim.git
+[submodule "my_plugins/deoplete-jedi"]
+	path = my_plugins/deoplete-jedi
+	url = https://github.com/deoplete-plugins/deoplete-jedi.git
