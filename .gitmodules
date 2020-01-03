@@ -13,3 +13,21 @@
 [submodule "my_plugins/vim-flake8"]
 	path = my_plugins/vim-flake8
 	url = https://github.com/nvie/vim-flake8.git
+[submodule "my_plugins/ncm2"]
+	path = my_plugins/ncm2
+	url = https://github.com/ncm2/ncm2.git
+[submodule "my_plugins/nvim-yarp"]
+	path = my_plugins/nvim-yarp
+	url = https://github.com/roxma/nvim-yarp.git
+[submodule "my_plugins/syntastic"]
+	path = my_plugins/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "my_plugins/nvm2-jedi"]
+	path = my_plugins/nvm2-jedi
+	url = https://github.com/ncm2/ncm2-jedi.git
+[submodule "my_plugins/ncm2-path"]
+	path = my_plugins/ncm2-path
+	url = https://github.com/ncm2/ncm2-path.git
+[submodule "my_plugins/ncm2-bufword"]
+	path = my_plugins/ncm2-bufword
+	url = https://github.com/ncm2/ncm2-bufword.git
