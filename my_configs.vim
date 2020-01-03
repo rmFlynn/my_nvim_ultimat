@@ -80,3 +80,20 @@ let g:multi_cursor_quit_key            = '<Esc>'
 
 let g:pymode_python = '/usr/bin/python3.6'
 set clipboard=unnamedplus
+" Use deoplete.
+let g:deoplete#enable_at_startup = 0
+
+" enable ncm2 for all buffers
+autocmd BufEnter * call ncm2#enable_for_buffer()
+
+" IMPORTANT: :help Ncm2PopupOpen for more information
+set completeopt=noinsert,menuone,noselect
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
