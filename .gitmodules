@@ -31,3 +31,12 @@
 [submodule "my_plugins/ncm2-bufword"]
 	path = my_plugins/ncm2-bufword
 	url = https://github.com/ncm2/ncm2-bufword.git
+[submodule "my_plugins/deoplete-clangx"]
+	path = my_plugins/deoplete-clangx
+	url = https://github.com/Shougo/deoplete-clangx.git
+[submodule "deoplete-rust"]
+	path = deoplete-rust
+	url = https://github.com/sebastianmarkow/deoplete-rust.git
+[submodule "my_plugins/csv"]
+	path = my_plugins/csv
+	url = https://github.com/chrisbra/csv.vim.git

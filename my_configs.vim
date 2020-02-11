@@ -55,7 +55,7 @@ let g:remoteSession = ($STY == "")
 
 set showtabline=2
 set foldcolumn=0
-set number
+"set number
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fix nave key mapping :-)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -78,13 +78,13 @@ let g:multi_cursor_prev_key            = '<C-p>'
 let g:multi_cursor_skip_key            = '<C-x>'
 let g:multi_cursor_quit_key            = '<Esc>'
 
-let g:pymode_python = '/usr/bin/python3.6'
+let g:pymode_python = 'python'
 set clipboard=unnamedplus
 " Use deoplete.
-let g:deoplete#enable_at_startup = 0
+let g:deoplete#enable_at_startup = 1
 
 " enable ncm2 for all buffers
-autocmd BufEnter * call ncm2#enable_for_buffer()
+"autocmd BufEnter * call ncm2#enable_for_buffer()
 
 " IMPORTANT: :help Ncm2PopupOpen for more information
 set completeopt=noinsert,menuone,noselect
@@ -97,3 +97,12 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+" <TAB>: completion.
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+
+:filetype plugin on
+
+
+" more info 
+" 
+" https://afnan.io/post/2018-04-12-my-neovim-development-setup/

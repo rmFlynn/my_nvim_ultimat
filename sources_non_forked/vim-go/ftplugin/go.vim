@@ -74,10 +74,6 @@ if get(g:, "go_textobj_enabled", 1)
   xnoremap <buffer> <silent> [[ :<c-u>call go#textobj#FunctionJump('v', 'prev')<cr>
 endif
 
-if go#config#AutoTypeInfo() || go#config#AutoSameids()
-  let &l:updatetime= get(g:, "go_updatetime", 800)
-endif
-
 " Autocommands
 " ============================================================================
 "
@@ -91,17 +87,16 @@ augroup vim-go-buffer
   " StdinReadPre, BufWritePost, TextChange, TextChangedI)
   if go#util#has_job()
     autocmd BufWritePost <buffer> call go#lsp#DidChange(expand('<afile>:p'))
-    autocmd FileChangedShell <buffer> call go#lsp#DidChange(expand('<afile>:p'))
+    autocmd FileChangedShellPost <buffer> call go#lsp#DidChange(expand('<afile>:p'))
     autocmd BufDelete <buffer> call go#lsp#DidClose(expand('<afile>:p'))
   endif
 
-  autocmd CursorHold <buffer> call go#auto#auto_type_info()
-  autocmd CursorHold <buffer> call go#auto#auto_sameids()
+  autocmd BufEnter,CursorHold <buffer> call go#auto#update_autocmd()
 
   " Echo the identifier information when completion is done. Useful to see
   " the signature of a function, etc...
   if exists('##CompleteDone')
-    autocmd CompleteDone <buffer> call go#auto#echo_go_info()
+    autocmd CompleteDone <buffer> call go#auto#complete_done()
   endif
 
   autocmd BufWritePre <buffer> call go#auto#fmt_autosave()
