@@ -274,8 +274,6 @@ ale-html-tidy	ale-html.txt	/*ale-html-tidy*
 ale-html-write-good	ale-html.txt	/*ale-html-write-good*
 ale-idris-idris	ale-idris.txt	/*ale-idris-idris*
 ale-idris-options	ale-idris.txt	/*ale-idris-options*
-ale-ink-language-server	ale-ink.txt	/*ale-ink-language-server*
-ale-ink-options	ale-ink.txt	/*ale-ink-options*
 ale-integration-glsl	ale-glsl.txt	/*ale-integration-glsl*
 ale-integration-hack	ale-hack.txt	/*ale-integration-hack*
 ale-integration-kotlin	ale-kotlin.txt	/*ale-integration-kotlin*
@@ -353,12 +351,6 @@ ale-mercury-options	ale-mercury.txt	/*ale-mercury-options*
 ale-nasm-nasm	ale-nasm.txt	/*ale-nasm-nasm*
 ale-nasm-options	ale-nasm.txt	/*ale-nasm-options*
 ale-navigation-commands	ale.txt	/*ale-navigation-commands*
-ale-nim-nimcheck	ale-nim.txt	/*ale-nim-nimcheck*
-ale-nim-nimlsp	ale-nim.txt	/*ale-nim-nimlsp*
-ale-nim-nimpretty	ale-nim.txt	/*ale-nim-nimpretty*
-ale-nim-options	ale-nim.txt	/*ale-nim-options*
-ale-nix-nixpkgs-fmt	ale-nix.txt	/*ale-nix-nixpkgs-fmt*
-ale-nix-options	ale-nix.txt	/*ale-nix-options*
 ale-nroff-options	ale-nroff.txt	/*ale-nroff-options*
 ale-nroff-write-good	ale-nroff.txt	/*ale-nroff-write-good*
 ale-objc-ccls	ale-objc.txt	/*ale-objc-ccls*
@@ -414,9 +406,6 @@ ale-puppet-languageserver	ale-puppet.txt	/*ale-puppet-languageserver*
 ale-puppet-options	ale-puppet.txt	/*ale-puppet-options*
 ale-puppet-puppet	ale-puppet.txt	/*ale-puppet-puppet*
 ale-puppet-puppetlint	ale-puppet.txt	/*ale-puppet-puppetlint*
-ale-purescript-language-server	ale-purescript.txt	/*ale-purescript-language-server*
-ale-purescript-options	ale-purescript.txt	/*ale-purescript-options*
-ale-purescript-purty	ale-purescript.txt	/*ale-purescript-purty*
 ale-pyrex-cython	ale-pyrex.txt	/*ale-pyrex-cython*
 ale-pyrex-options	ale-pyrex.txt	/*ale-pyrex-options*
 ale-python-autopep8	ale-python.txt	/*ale-python-autopep8*
@@ -849,10 +838,6 @@ b:ale_mercury_mmc_executable	ale-mercury.txt	/*b:ale_mercury_mmc_executable*
 b:ale_mercury_mmc_options	ale-mercury.txt	/*b:ale_mercury_mmc_options*
 b:ale_nasm_nasm_executable	ale-nasm.txt	/*b:ale_nasm_nasm_executable*
 b:ale_nasm_nasm_options	ale-nasm.txt	/*b:ale_nasm_nasm_options*
-b:ale_nim_nimpretty_executable	ale-nim.txt	/*b:ale_nim_nimpretty_executable*
-b:ale_nim_nimpretty_options	ale-nim.txt	/*b:ale_nim_nimpretty_options*
-b:ale_nix_nixpkgsfmt_executable	ale-nix.txt	/*b:ale_nix_nixpkgsfmt_executable*
-b:ale_nix_nixpkgsfmt_options	ale-nix.txt	/*b:ale_nix_nixpkgsfmt_options*
 b:ale_objc_ccls_executable	ale-objc.txt	/*b:ale_objc_ccls_executable*
 b:ale_objc_ccls_init_options	ale-objc.txt	/*b:ale_objc_ccls_init_options*
 b:ale_objc_clang_options	ale-objc.txt	/*b:ale_objc_clang_options*
@@ -920,7 +905,6 @@ b:ale_puppet_puppet_executable	ale-puppet.txt	/*b:ale_puppet_puppet_executable*
 b:ale_puppet_puppet_options	ale-puppet.txt	/*b:ale_puppet_puppet_options*
 b:ale_puppet_puppetlint_executable	ale-puppet.txt	/*b:ale_puppet_puppetlint_executable*
 b:ale_puppet_puppetlint_options	ale-puppet.txt	/*b:ale_puppet_puppetlint_options*
-b:ale_purescript_purty_executable	ale-purescript.txt	/*b:ale_purescript_purty_executable*
 b:ale_pyrex_cython_executable	ale-pyrex.txt	/*b:ale_pyrex_cython_executable*
 b:ale_pyrex_cython_options	ale-pyrex.txt	/*b:ale_pyrex_cython_options*
 b:ale_python_auto_pipenv	ale-python.txt	/*b:ale_python_auto_pipenv*
@@ -1467,10 +1451,6 @@ g:ale_mercury_mmc_executable	ale-mercury.txt	/*g:ale_mercury_mmc_executable*
 g:ale_mercury_mmc_options	ale-mercury.txt	/*g:ale_mercury_mmc_options*
 g:ale_nasm_nasm_executable	ale-nasm.txt	/*g:ale_nasm_nasm_executable*
 g:ale_nasm_nasm_options	ale-nasm.txt	/*g:ale_nasm_nasm_options*
-g:ale_nim_nimpretty_executable	ale-nim.txt	/*g:ale_nim_nimpretty_executable*
-g:ale_nim_nimpretty_options	ale-nim.txt	/*g:ale_nim_nimpretty_options*
-g:ale_nix_nixpkgsfmt_executable	ale-nix.txt	/*g:ale_nix_nixpkgsfmt_executable*
-g:ale_nix_nixpkgsfmt_options	ale-nix.txt	/*g:ale_nix_nixpkgsfmt_options*
 g:ale_objc_ccls_executable	ale-objc.txt	/*g:ale_objc_ccls_executable*
 g:ale_objc_ccls_init_options	ale-objc.txt	/*g:ale_objc_ccls_init_options*
 g:ale_objc_clang_options	ale-objc.txt	/*g:ale_objc_clang_options*
@@ -1542,7 +1522,6 @@ g:ale_puppet_puppet_executable	ale-puppet.txt	/*g:ale_puppet_puppet_executable*
 g:ale_puppet_puppet_options	ale-puppet.txt	/*g:ale_puppet_puppet_options*
 g:ale_puppet_puppetlint_executable	ale-puppet.txt	/*g:ale_puppet_puppetlint_executable*
 g:ale_puppet_puppetlint_options	ale-puppet.txt	/*g:ale_puppet_puppetlint_options*
-g:ale_purescript_purty_executable	ale-purescript.txt	/*g:ale_purescript_purty_executable*
 g:ale_pyrex_cython_executable	ale-pyrex.txt	/*g:ale_pyrex_cython_executable*
 g:ale_pyrex_cython_options	ale-pyrex.txt	/*g:ale_pyrex_cython_options*
 g:ale_python_auto_pipenv	ale-python.txt	/*g:ale_python_auto_pipenv*
@@ -1788,4 +1767,3 @@ g:ale_yaml_yamllint_executable	ale-yaml.txt	/*g:ale_yaml_yamllint_executable*
 g:ale_yaml_yamllint_options	ale-yaml.txt	/*g:ale_yaml_yamllint_options*
 g:ale_yang_lsp_executable	ale-yang.txt	/*g:ale_yang_lsp_executable*
 g:html_tidy_use_global	ale-html.txt	/*g:html_tidy_use_global*
-g:nim_nimlsp_nim_sources	ale-nim.txt	/*g:nim_nimlsp_nim_sources*
